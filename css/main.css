@@ -1,0 +1,154 @@
+/**MAIN STYLES **/
+
+@font-face {
+font-family: 'Wisdom Script';
+src: url('fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+  font-family: 'Montserrat', Verdana, Arial, sans-serif;
+  color: #000000;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.third-width {
+  width: 360px;
+  margin: 0 auto;
+}
+
+/**HEADER & NAV**/
+
+header h1, nav{
+  color: #77a466;
+  text-transform: uppercase;
+  line-height: 23px;
+  margin: 50px 0px 40px 0px;
+  display: inline;
+}
+
+header span {
+  color: #000000;
+}
+
+header h1 {
+  font-size: 30px;
+  float: left;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav {
+  margin-top: 50px;
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 20px;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+	color:#77a466;
+}
+
+/**HERO**/
+
+.section-one img {
+  border-top: 4px solid #77a466;
+  border-bottom: 4px solid #77a466;
+}
+
+.section-one h2 {
+  text-transform: uppercase;
+  color: #77a466;
+  font-size: 18px;
+  line-height: 23px;
+  padding: 5px 0px;
+}
+
+.section-one p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/**MAIN SECTION**/
+
+.third-width {
+  border-top: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  height: 200px;
+  float: left;
+}
+
+#specials, #reviews {
+  border-right: 1px solid #EEEEEE;
+}
+
+#specials {
+  padding-right: 20px;
+}
+
+#reviews, #contact {
+  padding: 0px 20px ;
+}
+
+.section-two h3{
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+.menu {
+list-style: none;
+padding: 0;
+}
+
+#specials li {
+  color:#77a466;
+  font-size: 16 px;
+  line-height: 18px;
+  list-style: none;
+  padding: 10px 0;
+}
+
+#reviews p {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#contact p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/**FOOTER**/
+
+#footer {
+  clear: both;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+#footer h2 {
+  color: #000000;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+#footer span {
+  color: #77a466;
+  font-family: 'Wisdom Script', cursive;
+  text-transform: lowercase;
+}
